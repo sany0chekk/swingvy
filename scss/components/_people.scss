@@ -1,0 +1,51 @@
+.people {
+	margin-top: 300px;
+}
+.people__inner {
+}
+.people__title {
+	margin-bottom: 18px;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+	color: $gray;
+	
+	text-transform: uppercase;
+}
+.people__descr {
+	margin-bottom: 80px;
+
+	max-width: 521px;
+
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.8px;
+	color: $black;
+
+}
+.people__info {
+	display: flex;
+	justify-content: space-between;
+}
+.people__info-item {
+	max-width: 325px;
+	&:not(:last-child){
+		margin-right: 50px;
+	}
+}
+.info__title {
+	margin: 20px 0 35px 0;
+	font-weight: 400;
+	font-size: 21px;
+	color: $blue;
+
+	letter-spacing: 2.08px;
+	text-transform: uppercase;
+}
+.info__descr {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: $black;
+}

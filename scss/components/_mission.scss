@@ -1,0 +1,77 @@
+.mission {
+	margin-top: 302px;
+	padding-bottom: 30px;
+}
+.mission__inner {
+}
+.mission__title {
+	margin-bottom: 30px;
+
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+	color: $gray;
+
+	text-transform: uppercase;
+}
+.mission__content {
+	display: flex;
+	justify-content: space-between;
+}
+.mission__descr {
+	margin-bottom: 37px;
+
+	max-width: 447px;
+
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 48px;
+	letter-spacing: 0.8px;
+	color: $black;
+
+	& span{
+		color: $blue;
+	}
+}
+.mission__stats {
+	display: grid;
+	grid-template-columns: 250px 250px;
+	gap: 14px 54px;
+
+	& p{
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 27px;
+		color: $black;
+
+		& span{
+			color: $blue;
+		}
+	}
+}
+.investors__title {
+	margin-bottom: 32px;
+	margin-top: 232px;
+
+	text-align: center;
+	font-weight: 400;
+	font-style: 22px;
+	line-height: 27px;
+	color: $black;
+}
+.investors__list {
+	padding-bottom: 80px;
+
+	border-bottom: 1px solid $gray;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	& img{
+		transition: transform .2s linear;
+		&:hover{
+			transform: translateY(-10px);
+		}
+	}
+}

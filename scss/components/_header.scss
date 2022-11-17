@@ -1,0 +1,46 @@
+.header {
+}
+.container {
+}
+.header__inner {
+	min-height: 75px;
+	display: flex;
+	align-items: center;
+}
+.header__logo {
+}
+.nav {
+	margin-left: 36px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__list {
+	display: flex;
+	margin-right: 20px;
+}
+.nav__item {
+	&:not(:last-child){
+		margin-right: 30px;
+	}
+}
+.nav__link {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.4px;
+	color: $black-light;
+
+	text-transform: uppercase;
+	transition: opacity .2s linear;
+
+	&:hover{
+		opacity: 0.5;
+	}
+}
+.reg {
+	display: flex;
+	align-items: center;
+}
+.reg__btn {
+}

@@ -1,0 +1,49 @@
+.img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.btn{
+	font-family: $main-font;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: $white;
+
+	background-color: $blue;
+	border-radius: 4px;
+
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	transition: box-shadow .2s linear;
+
+	&:hover{
+		box-shadow: 2px 2px 14px $blue;
+	}
+
+	&--demo{
+		padding: 16px 24px;
+		margin-left: 28px;
+	}
+
+	&--hero{
+		padding: 20px 48px;
+	}
+
+	&--platform{
+		padding: 15px 24px;
+	}
+	&--adv{
+		padding: 20px 48px;
+
+		background-color: $white;
+
+		font-size: 18px;
+		letter-spacing: normal;
+		color: $black;
+		&:hover{
+			box-shadow: 2px 2px 14px $white;
+		}
+	}
+}

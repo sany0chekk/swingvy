@@ -1,0 +1,57 @@
+.adv {
+	padding: 190px 0 250px 0;
+	margin-top: 216px;
+
+	background-color: #FEC33E;
+}
+.adv__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.adv__content {
+	margin-right: 30px;
+}
+.adv__title {
+	margin-bottom: 18px;
+
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+	letter-spacing: 1.8px;
+	color: $black;
+
+	text-transform: uppercase;
+}
+.adv__offer {
+	margin-bottom: 20px;
+
+	max-width: 526px;
+
+	font-weight: 700;
+	font-size: 39px;
+	line-height: 48px;
+	letter-spacing: 0.8px;
+	color: $black;
+}
+.adv__descr {
+	margin-bottom: 37px;
+
+	max-width: 497px;
+
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	color: $black;
+}
+.btn {
+}
+.btn--adv {
+}
+.adv__sponsors {
+	& img{
+		&:not(:last-child){
+			margin-bottom: 40px;
+		}
+	}
+}

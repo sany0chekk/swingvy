@@ -1,0 +1,15 @@
+/*               Settings                  */
+@import "./settings/vars";
+@import "./settings/helpers";
+@import './settings/reset';
+@import "./settings/style";
+
+/*               Blocks                   */
+@import "./components/header";
+@import "./components/hero";
+@import "./components/platform";
+@import "./components/adv";
+@import "./components/partners";
+@import "./components/people";
+@import "./components/mission";
+@import "./components/footer";
